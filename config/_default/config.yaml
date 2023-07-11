@@ -3,3 +3,8 @@ paginate: 18
 enableRobotsTXT: true
 removePathAccents: true
 defaultContentLanguage: fr
+
+params:
+  logo:
+    header: '/assets/images/logo-fi-blanc.png'
+    footer: '/assets/images/logo-fi-blanc.png'
