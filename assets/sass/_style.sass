@@ -2,12 +2,11 @@
 
 .hero--with-image
     @include media-breakpoint-up(desktop)
-        background-color: #ff0000
         .content figure
             margin: -4rem
-            height: calc( 500px - 2rem )
+            min-height: calc( 500px - 2rem )
             width: calc( 100% / 12 * 6 - 2rem )
 
             img
-                height: calc( 500px - 2rem )
+                min-height: calc( 500px - 2rem )
                 object-fit: cover
