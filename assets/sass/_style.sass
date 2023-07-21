@@ -1,11 +1,20 @@
 //Images on Hero
-
-.hero--with-image
-    @include media-breakpoint-up(desktop)
-        .content figure
-            margin: -4rem
-            min-height: calc( 500px - 4rem )
-
-            img
+.hero
+    @include media-breakpoint-only(lg)
+        .content > h1
+            font-size: px2rem(70)
+    
+    @include media-breakpoint-down(lg)
+        .content > h1
+            font-size: px2rem(40)
+    
+    &--with-image
+        @include media-breakpoint-up(desktop)
+            .content figure
+                margin: -4rem
                 min-height: calc( 500px - 4rem )
-                object-fit: cover
+                width: calc( 100% / 12 * 5 - 2rem )
+
+                img
+                    min-height: calc( 500px - 4rem )
+                    object-fit: cover
