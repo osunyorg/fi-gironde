@@ -12,13 +12,39 @@
                     left: 0
                     max-height: 500px
                     margin: 0
+                    overflow: hidden
                     
                     img
                         filter: brightness(85%)
-                        max-height: 500px
+                        transform: scale(1.5)
                 
                 .content h1
                     z-index: 99
+            
+            @include media-breakpoint-down(desktop)
+                .content figure
+                    position: absolute
+                    z-index: 0
+                    width: 100%
+                    height: 100%
+                    top: 0
+                    left: 0
+                    margin: 0
+                    overflow: hidden
+                    
+                    img
+                        filter: brightness(85%)
+                        transform: scale(2.02)
+                        height: auto
+                
+                .content h1
+                    z-index: 99
+                    margin: 0
+                    position: relative
+
+                @include media-breakpoint-down(sm)
+                    .content figure img
+                        transform: scale(2.86)
 
 .block-call_to_action .call_to_action
     color: $color-text-contrast
