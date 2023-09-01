@@ -39,5 +39,23 @@
                     .content figure img
                         transform: scale(2.53)
 
-.block-call_to_action .call_to_action
-    color: $color-text-contrast
+body.full-width
+    .block-call_to_action .block-content
+        padding: 0
+
+        .call_to_action
+            color: $color-text
+            background: rgb(242,238,52)
+
+            div:first-child
+                padding: 4rem
+
+                .actions a:first-child
+                    background: $color-text-contrast
+                    border: 2px solid $color-text-contrast
+
+                    &:hover
+                        background: rgb(242,238,52)
+                        color: $color-text
+                        box-sizing: border-box
+            
