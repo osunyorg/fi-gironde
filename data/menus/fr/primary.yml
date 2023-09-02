@@ -17,4 +17,8 @@ items:
     target: "/actualites/communiques/"
     kind: category
     children: []
+- title: Contact
+  target: "/contact/"
+  kind: page
+  children: []
 
