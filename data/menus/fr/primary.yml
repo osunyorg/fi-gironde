@@ -5,16 +5,16 @@ items:
   target: "/actualites/"
   kind: page
   children:
+  - title: Communiqués
+    target: "/actualites/communiques/"
+    kind: category
+    children: []
   - title: Luttes Locales
     target: "/actualites/luttes-locales/"
     kind: category
     children: []
   - title: Analyses et positions
     target: "/actualites/analyses-et-positions/"
-    kind: category
-    children: []
-  - title: Communiqués
-    target: "/actualites/communiques/"
     kind: category
     children: []
 - title: Contact
