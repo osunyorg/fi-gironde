@@ -21,4 +21,8 @@ items:
   target: "/contact/"
   kind: page
   children: []
+- title: 'Rejoindre un groupe d''action '
+  target: actionpopulaire.fr/
+  kind: url
+  children: []
 
