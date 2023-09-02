@@ -64,4 +64,26 @@ body.full-width
             
             picture
                 line-height: 50%
+    
+    @include media-breakpoint-down(lg)
+        .block-call_to_action .container
+            padding: 0
+            
+            .call_to_action--with-image
+                padding-top: 0
+
+                div:first-child
+                    padding: 0rem 2rem
+
+                    .block-title
+                        font-size: 2rem
+                        padding-bottom: 1rem
+                    
+                    .actions
+                        margin-top: 0
+                        a
+                            font-size: 1.5rem
+                            width: 100%
+                            text-align: center
+            
             
