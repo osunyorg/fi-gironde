@@ -13,8 +13,8 @@ items:
     target: "/actualites/analyses-et-positions/"
     kind: category
     children: []
-- title: Communiqués
-  target: "/actualites/communiques/"
-  kind: category
-  children: []
+  - title: Communiqués
+    target: "/actualites/communiques/"
+    kind: category
+    children: []
 
