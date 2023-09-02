@@ -4,7 +4,11 @@ items:
 - title: Actualités
   target: "/actualites/"
   kind: page
-  children: []
+  children:
+  - title: Luttes Locales
+    target: "/actualites/luttes-locales/"
+    kind: category
+    children: []
 - title: Communiqués
   target: "/actualites/communiques/"
   kind: category
