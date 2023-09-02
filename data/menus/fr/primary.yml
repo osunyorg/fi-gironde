@@ -9,6 +9,10 @@ items:
     target: "/actualites/luttes-locales/"
     kind: category
     children: []
+  - title: Analyses et positions
+    target: "/actualites/analyses-et-positions/"
+    kind: category
+    children: []
 - title: Communiqués
   target: "/actualites/communiques/"
   kind: category
