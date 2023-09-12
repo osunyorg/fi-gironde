@@ -50,4 +50,8 @@ items:
       fonctions, lorsque la qualité de la victime est apparente ou connue de l’auteur.
     kind: url
     children: []
+  - title: Le programme de la NUPES 2022
+    target: https://nupes-2022.fr/le-programme/
+    kind: url
+    children: []
 
