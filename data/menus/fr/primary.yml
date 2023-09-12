@@ -17,6 +17,18 @@ items:
     target: "/actualites/analyses-et-positions/"
     kind: category
     children: []
+- title: Programme
+  target: ''
+  kind: blank
+  children:
+  - title: L'avenir en commun
+    target: https://laec.fr/
+    kind: url
+    children: []
+  - title: Le programme de la NUPES 2022
+    target: https://nupes-2022.fr/le-programme/
+    kind: url
+    children: []
 - title: Contact
   target: "/contact/"
   kind: page
