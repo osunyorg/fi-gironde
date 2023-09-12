@@ -25,4 +25,8 @@ items:
   target: https://actionpopulaire.fr/
   kind: url
   children: []
+- title: Programme
+  target: ''
+  kind: blank
+  children: []
 
