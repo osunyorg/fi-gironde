@@ -1,13 +1,17 @@
 [build]
   publish = "public"
-  command = "hugo"
+  command = "yarn osuny build"
 
 [build.environment]
+<<<<<<< HEAD
   HUGO_VERSION = "0.115.2"
+=======
+  HUGO_VERSION = "0.119.0"
+>>>>>>> 4b3b363e75f10dbdb90078366d615b023199ba47
 
 [[headers]]
   for = "/*"
   [headers.values]
     X-Frame-Options = "SAMEORIGIN"
     X-XSS-Protection = "0"
-    X-Content-Type-Options = "nosniff"
+    X-Content-Type-Options = "nosniff" 
