@@ -40,31 +40,32 @@
                         transform: scale(2.53)
 
 body.full-width
-    .block-call_to_action .block-content
-        padding: 0
+    .block-call_to_action
+        .block-content
+            padding: 0
 
-        .call_to_action
-            color: $color-text
-            background: $color-yellow
+            .call_to_action
+                color: $color-text
+                background: $color-yellow
 
-            div:first-child
-                padding: 4rem
+                div:first-child
+                    padding: 4rem
 
-                .actions a:first-child
-                    background: $color-text-contrast
-                    border: 2px solid $color-text-contrast
-                    font-size: 1.5rem
+                    .actions a:first-child
+                        background: $color-text-contrast
+                        border: 2px solid $color-text-contrast
+                        font-size: 1.5rem
 
-                    &:hover
-                        background: $color-yellow
-                        color: $color-text
-                        box-sizing: border-box
-                    &:active, &:focus
-                        color: $color-text
-                        background-color: #eeeeee
-            
-            picture
-                line-height: 50%
+                        &:hover
+                            background: $color-yellow
+                            color: $color-text
+                            box-sizing: border-box
+                        &:active, &:focus
+                            color: $color-text
+                            background-color: #eeeeee
+                
+                picture
+                    line-height: 50%
     
     @include media-breakpoint-down(lg)
         .block-call_to_action .container

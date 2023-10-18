@@ -1,6 +1,8 @@
 //Images on Hero
 .hero
-    margin-bottom: $spacing2
+    margin-bottom: $spacing1
+    @include media-breakpoint-up(desktop)
+        margin-bottom: $spacing2
 
     &--with-image
         @include media-breakpoint-up(desktop)
