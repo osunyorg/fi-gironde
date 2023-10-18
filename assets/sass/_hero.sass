@@ -1,21 +1,14 @@
 //Images on Hero
 .hero
-    margin-bottom: 2rem
+    margin-bottom: $spacing2
 
-    @include media-breakpoint-only(lg)
-        .content > h1
-            font-size: px2rem(70)
-    
-    @include media-breakpoint-down(lg)
-        .content > h1
-            font-size: px2rem(40)
-    
     &--with-image
         @include media-breakpoint-up(desktop)
-            .content figure
-                margin: -4rem
-                min-height: calc( 650px - 4rem )
-                width: calc( 100% / 12 * 5 - 2rem )
+            .content 
+                figure
+                    margin: -4rem
+                    min-height: calc( 650px - 4rem )
+                    width: calc( 100% / 12 * 5 - 2rem )
 
                 img
                     min-height: calc( 650px - 4rem )
