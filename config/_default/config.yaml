@@ -8,3 +8,6 @@ params:
   logo:
     header: '/assets/images/logo-fi-blanc.png'
     footer: '/assets/images/logo-fi-blanc.png'
+  posts:
+    index:
+      truncate_description: 0
