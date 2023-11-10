@@ -49,7 +49,9 @@ contents:
     title: >-
       Nos dernières actualités
     position: 0
-    heading_level: 2
+    ranks:
+      self: 2
+      children: 3
     data:
       all: true
       layout: highlight
@@ -64,7 +66,8 @@ contents:
     title: >-
       Rejoignez un groupe d'action près de chez vous !
     position: 1
-    heading_level: 2
+    ranks:
+      self: 2
     data:
       text: >-
         <p>En Gironde, plus de 50 groupes d'action près de chez vous prêts à vous accueillir à bras ouverts ! </p>
@@ -94,13 +97,14 @@ contents:
     title: >-
       Les actions près de chez vous
     position: 0
-    level: 2
+    rank: 2
   - kind: block
     template: embed
     title: >-
       Agenda des luttes
     position: 0
-    heading_level: 3
+    ranks:
+      self: 3
     data:
       code: >-
         <iframe src="https://embed.styledcalendar.com/#82ak37vadFCNG647NeNu" title="Styled Calendar" class="styled-calendar-container" style="width: 100%; border: 2px dashed #010101;" data-cy="calendar-embed-iframe"></iframe>
@@ -117,7 +121,8 @@ contents:
     title: >-
       
     position: 1
-    heading_level: 3
+    ranks:
+      self: false
     data:
       show_main_description: false
       show_descriptions: false
