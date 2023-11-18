@@ -37,4 +37,8 @@ items:
   target: https://actionpopulaire.fr/
   kind: url
   children: []
+- title: Agenda
+  target: "#agenda"
+  kind: url
+  children: []
 
