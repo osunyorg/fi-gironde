@@ -29,16 +29,16 @@ items:
     target: https://nupes-2022.fr/le-programme/
     kind: url
     children: []
+- title: Agenda
+  target: "#agenda"
+  kind: url
+  children: []
 - title: Contact
   target: "/contact/"
   kind: page
   children: []
 - title: 'Rejoindre un groupe d''action '
   target: https://actionpopulaire.fr/
-  kind: url
-  children: []
-- title: Agenda
-  target: "#agenda"
   kind: url
   children: []
 
