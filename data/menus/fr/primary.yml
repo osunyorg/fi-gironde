@@ -17,6 +17,10 @@ items:
     target: "/actualites/analyses-et-positions/"
     kind: category
     children: []
+- title: Agenda
+  target: "#agenda"
+  kind: url
+  children: []
 - title: Programme
   target: ''
   kind: blank
@@ -29,10 +33,6 @@ items:
     target: https://nupes-2022.fr/le-programme/
     kind: url
     children: []
-- title: Agenda
-  target: "#agenda"
-  kind: url
-  children: []
 - title: Contact
   target: "/contact/"
   kind: page
