@@ -49,20 +49,26 @@ body.full-width
                 background: $color-yellow
 
                 div:first-child
-                    padding: 4rem
+                    padding: 0rem 4rem
 
-                    .actions a:first-child
-                        background: $color-text-contrast
-                        border: 2px solid $color-text-contrast
-                        font-size: 1.5rem
+                    .top
+                        padding: 3.5rem 4rem 0rem
 
-                        &:hover
-                            background: $color-yellow
-                            color: $color-text
-                            box-sizing: border-box
-                        &:active, &:focus
-                            color: $color-text
-                            background-color: #eeeeee
+                    .actions
+                        margin: 0rem 4rem 
+                        
+                        a:first-child
+                            background: $color-text-contrast
+                            border: 2px solid $color-text-contrast
+                            font-size: 1.5rem
+
+                            &:hover
+                                background: $color-yellow
+                                color: $color-text
+                                box-sizing: border-box
+                            &:active, &:focus
+                                color: $color-text
+                                background-color: #eeeeee
                 
                 picture
                     line-height: 50%
