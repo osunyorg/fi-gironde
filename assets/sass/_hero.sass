@@ -6,12 +6,16 @@
 
     &--with-image
         @include media-breakpoint-up(desktop)
-            .content 
+            .content
                 figure
                     margin: -4rem
-                    min-height: calc( 650px - 4rem )
-                    width: calc( 100% / 12 * 5 - 2rem )
-
+                    width: calc( 100% / 12 * 5 - 2rem)
+                    align-self: stretch
+                a
+                    height: 100%
+                picture
+                    height: 100%
                 img
-                    min-height: calc( 650px - 4rem )
+                    width: 100% !important
+                    height: 100% !important
                     object-fit: cover
