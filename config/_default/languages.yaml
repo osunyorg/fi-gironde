@@ -5,6 +5,12 @@ fr:
   contentDir: content/fr
   languageCode: fr
   languageName: Français
+  params:
+    social:
+      x: >-
+        https://twitter.com/Fi_Gironde/
+      facebook: >-
+        https://www.facebook.com/LFIGironde
   permalinks:
     posts: /actualites/:year-:month-:day-:slug/
     posts_categories: /actualites/:slug/
