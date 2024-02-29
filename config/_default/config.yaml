@@ -11,3 +11,5 @@ params:
   posts:
     index:
       truncate_description: 0
+  debug:
+     productionUrl: "https://www.fi33.fr"
