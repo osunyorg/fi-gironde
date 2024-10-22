@@ -53,7 +53,7 @@ header_cta:
   target: ""
   external: false
 contents_reading_time:
-  seconds: 11
+  seconds: 16
   text: >-
     moins d'une minute
 contents:
@@ -61,6 +61,8 @@ contents:
     template: posts
     title: >-
       Nos dernières actualités
+    slug: >-
+      nos-dernieres-actualites
     ranks:
       self: 2
       children: 3
@@ -87,6 +89,8 @@ contents:
     template: call_to_action
     title: >-
       Rejoignez un groupe d'action près de chez vous !
+    slug: >-
+      rejoignez-un-groupe-d-action-pres-de-chez-vous
     ranks:
       self: 2
     data:
@@ -115,16 +119,24 @@ contents:
 
 
 
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       Les actions près de chez vous
-    slug: "les-actions-pres-de-chez-vous"
-    position: 1
-    rank: 2
+    slug: >-
+      les-actions-pres-de-chez-vous
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: embed
     title: >-
       Agenda des luttes
+    slug: >-
+      agenda-des-luttes
     ranks:
       self: 3
     data:
@@ -143,6 +155,8 @@ contents:
     template: pages
     title: >-
       
+    slug: >-
+      
     ranks:
       self: false
     data:
@@ -153,7 +167,6 @@ contents:
 
       layout: grid
       pages:
-
 
 
 
