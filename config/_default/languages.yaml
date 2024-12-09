@@ -7,11 +7,19 @@ fr:
   languageCode: fr
   languageName: Français
   params:
-    social:
-      x: >-
-        https://twitter.com/Fi_Gironde/
-      facebook: >-
-        https://www.facebook.com/LFIGironde
+    contact_details:
+      social_networks:
+        facebook:
+          label: >-
+            LFIGironde
+          value: >-
+            https://www.facebook.com/LFIGironde
+        x:
+          label: >-
+            Fi_Gironde
+          value: >-
+            https://x.com/Fi_Gironde
+
   permalinks:
     events: /agenda/:year-:month-:day-:slug/
     events_categories: /agenda/:slug/
