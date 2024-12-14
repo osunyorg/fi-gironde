@@ -9,17 +9,21 @@ items:
     target: "/actualites/communiques/"
     kind: category
     children: []
+    path: "/posts_categories/communiques"
     file: content/fr/posts_categories/communiques/_index.html
   - title: Luttes Locales
     target: "/actualites/luttes-locales/"
     kind: category
     children: []
+    path: "/posts_categories/luttes-locales"
     file: content/fr/posts_categories/luttes-locales/_index.html
   - title: Analyses et positions
     target: "/actualites/analyses-et-positions/"
     kind: category
     children: []
+    path: "/posts_categories/analyses-et-positions"
     file: content/fr/posts_categories/analyses-et-positions/_index.html
+  path: "/posts"
   file: content/fr/posts/_index.html
 - title: Agenda
   target: "#agenda"
@@ -41,6 +45,7 @@ items:
   target: "/contact/"
   kind: page
   children: []
+  path: "/pages/contact"
   file: content/fr/pages/contact/_index.html
 - title: 'Rejoindre un groupe d''action '
   target: https://actionpopulaire.fr/
