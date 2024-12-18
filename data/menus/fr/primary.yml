@@ -4,22 +4,26 @@ items:
 - title: Actualités
   target: "/actualites/"
   kind: page
+  new_tab: false
   children:
   - title: Communiqués
     target: "/actualites/communiques/"
     kind: category
+    new_tab: false
     children: []
     path: "/posts_categories/communiques"
     file: content/fr/posts_categories/communiques/_index.html
   - title: Luttes Locales
     target: "/actualites/luttes-locales/"
     kind: category
+    new_tab: false
     children: []
     path: "/posts_categories/luttes-locales"
     file: content/fr/posts_categories/luttes-locales/_index.html
   - title: Analyses et positions
     target: "/actualites/analyses-et-positions/"
     kind: category
+    new_tab: false
     children: []
     path: "/posts_categories/analyses-et-positions"
     file: content/fr/posts_categories/analyses-et-positions/_index.html
@@ -28,27 +32,33 @@ items:
 - title: Agenda
   target: "#agenda"
   kind: url
+  new_tab: false
   children: []
 - title: Programme
   target: ''
   kind: blank
+  new_tab: false
   children:
   - title: L'avenir en commun
     target: https://laec.fr/
     kind: url
+    new_tab: true
     children: []
   - title: Le programme de la NUPES 2022
     target: https://nupes-2022.fr/le-programme/
     kind: url
+    new_tab: true
     children: []
 - title: Contact
   target: "/contact/"
   kind: page
+  new_tab: false
   children: []
   path: "/pages/contact"
   file: content/fr/pages/contact/_index.html
 - title: 'Rejoindre un groupe d''action '
   target: https://actionpopulaire.fr/
   kind: url
+  new_tab: true
   children: []
 
