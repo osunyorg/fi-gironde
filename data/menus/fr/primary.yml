@@ -40,7 +40,7 @@ items:
   new_tab: false
   children:
   - title: L'avenir en commun
-    target: https://laec.fr/
+    target: https://programme.lafranceinsoumise.fr/
     kind: url
     new_tab: true
     children: []
