@@ -39,19 +39,20 @@
                 @include media-breakpoint-down(sm)
                     .content figure img
                         transform: scale(2.53)
-    
-    .block-links li .media picture.is-png img, .block-links li .media picture.is-svg img
-        aspect-ratio: 16/9
-        display: block
-        height: 100%
-        -o-object-fit: cover
-        object-fit: cover
-        width: 100%
 
-    .block-links li:hover
-        background-color: $color-accent-light 
-        .is-png, .block-links li:hover .is-svg
-            filter: invert(0)
+
+.block-links li .media picture.is-png img, .block-links li .media picture.is-svg img
+    aspect-ratio: 16/9
+    display: block
+    height: 100%
+    -o-object-fit: cover
+    object-fit: cover
+    width: 100%
+
+.block-links li:hover
+    background-color: $color-accent-light 
+    .is-png, .block-links li:hover .is-svg
+        filter: invert(0)
     
 
 body.full-width
