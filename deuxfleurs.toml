@@ -15,54 +15,54 @@ for = ["**/*.png", "**/*.jpg", "**/*.jpeg", "**/*.gif", "**/*.webp"]
 Cache-Control = "max-age=31536000, no-transform, public"
 
 [[redirects]]
-from = "/agenda/2023-09-22-sarabande-contre-la-lgv/"
+from = "/agenda/2023-09-22-sarabande-contre-la-lgv/index.html"
 to = "/agenda/2023/sarabande-contre-la-lgv/"
 
 [[redirects]]
-from = "/equipe-communication-france-insoumise-gironde/actualites/"
+from = "/equipe-communication-france-insoumise-gironde/actualites/index.html"
 to = "/equipe/equipe-communication-france-insoumise-gironde/actualites/"
 
 [[redirects]]
-from = "/enzo-blanchard-pour-le-groupe-daction-de-la-france-insoumise-bordeaux-nord/"
+from = "/enzo-blanchard-pour-le-groupe-daction-de-la-france-insoumise-bordeaux-nord/index.html"
 to = "/equipe/enzo-blanchard-pour-le-groupe-daction-de-la-france-insoumise-bordeaux-nord/"
 
 [[redirects]]
-from = "/actualites/2023-10-26-solidarite-au-militantes-du-pcf-gironde/"
+from = "/actualites/2023-10-26-solidarite-au-militantes-du-pcf-gironde/index.html"
 to = "/actualites/2023-10-26-solidarite-aux-militantes-du-pcf-gironde/"
 
 [[redirects]]
-from = "/actualites/2024-12-29-nous-soutenons-la-mobilisation-du-departement/"
+from = "/actualites/2024-12-29-nous-soutenons-la-mobilisation-du-departement/index.html"
 to = "/actualites/2024-12-23-nous-soutenons-la-mobilisation-du-departement/"
 
 [[redirects]]
-from = "/actualites/2023-05-15-les-amenagements-ferroviaires-au-sud-de-bordeaux-vont-ils-degrader-le-train-du-quotidien-france-insoumise-gironde/"
+from = "/actualites/2023-05-15-les-amenagements-ferroviaires-au-sud-de-bordeaux-vont-ils-degrader-le-train-du-quotidien-france-insoumise-gironde/index.html"
 to = "/actualites/2023-05-15-les-amenagements-ferroviaires-au-sud-de-bordeaux-vont-ils-degrader-le-train-du-quotidien-france-inso/"
 
 [[redirects]]
-from = "/actualites/2023-01-15-une-mobilisation-bordelaise-massive-contre-la-loi-immigration/"
+from = "/actualites/2023-01-15-une-mobilisation-bordelaise-massive-contre-la-loi-immigration/index.html"
 to = "/actualites/2024-01-15-une-mobilisation-bordelaise-massive-contre-la-loi-immigration/"
 
 [[redirects]]
-from = "/equipe-editoriale/"
+from = "/equipe-editoriale/index.html"
 to = "/equipe/equipe-editoriale/"
 
 [[redirects]]
-from = "/actualites/2023-10-27-pure-salmon-ce-projet-aberrant-d-elevage-intensif-pour-produire-du-saumon-francais-l-insoumission/"
+from = "/actualites/2023-10-27-pure-salmon-ce-projet-aberrant-d-elevage-intensif-pour-produire-du-saumon-francais-l-insoumission/index.html"
 to = "/actualites/2023-10-21-pure-salmon-ce-projet-aberrant-d-elevage-intensif-pour-produire-du-saumon-francais-l-insoumission/"
 
 [[redirects]]
-from = "/actualites/2024-02-23-declaration-concernant-lintervention-media-de-xavier-moniot-lundy/"
+from = "/actualites/2024-02-23-declaration-concernant-lintervention-media-de-xavier-moniot-lundy/index.html"
 to = "/actualites/2024-02-23-declaration-concernant-une-suposee-crise/"
 
 [[redirects]]
-from = "/equipe-communication-france-insoumise-gironde/"
+from = "/equipe-communication-france-insoumise-gironde/index.html"
 to = "/equipe/equipe-communication-france-insoumise-gironde/"
 
 [[redirects]]
-from = "/enzo-blanchard-pour-le-groupe-daction-de-la-france-insoumise-bordeaux-nord/actualites/"
+from = "/enzo-blanchard-pour-le-groupe-daction-de-la-france-insoumise-bordeaux-nord/actualites/index.html"
 to = "/equipe/enzo-blanchard-pour-le-groupe-daction-de-la-france-insoumise-bordeaux-nord/actualites/"
 
 [[redirects]]
-from = "/agenda/2024-11-23-manifestation-feministe-a-bordeaux/"
+from = "/agenda/2024-11-23-manifestation-feministe-a-bordeaux/index.html"
 to = "/agenda/2024/manifestation-feministe-a-bordeaux/"
 
